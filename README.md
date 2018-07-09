@@ -77,5 +77,5 @@ Project notebook provided by Udacity, demonstrates RNNs with TensorFlow | [TV Sc
 
 ## References
 
-The following resources were used in developing this project:
+The following resources were used in developing this project: 
 
