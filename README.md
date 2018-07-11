@@ -9,7 +9,7 @@ Recurrent Neural Networks (RNNs) project developed for Udacity's Deep Learning N
 #### Clone the Repository
 
 ``` batch
-git https://github.com/craig-martinson/tv-script-generation-project.git
+git clone https://github.com/craig-martinson/tv-script-generation-project.git
 cd tv-script-generation-project
 ```
 
@@ -25,7 +25,7 @@ Tested on the following environment:
 Create a Linux Conda environment with **CPU** backend and upgrade tensorflow:
 
 ``` batch
-conda create --name tv-script-project pip python=3.5 numpy jupyter
+conda create --name tv-script-project pip python=3.6 numpy jupyter
 conda activate tv-script-project
 pip install --ignore-installed --upgrade https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-1.8.0-cp36-cp36m-linux_x86_64.whl
 python -m ipykernel install --user --name tv-script-project --display-name "tv-script-project"
@@ -34,7 +34,7 @@ python -m ipykernel install --user --name tv-script-project --display-name "tv-s
 Create a Linux Conda environment with **GPU** backend and upgrade tensorflow:
 
 ``` batch
-conda create --name tv-script-project pip python=3.5 numpy jupyter
+conda create --name tv-script-project pip python=3.6 numpy jupyter
 conda activate tv-script-project
 pip install --ignore-installed --upgrade https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow_gpu-1.8.0-cp36-cp36m-linux_x86_64.whl
 python -m ipykernel install --user --name tv-script-project --display-name "tv-script-project"
@@ -52,18 +52,16 @@ Tested on the following environment:
 Create a Windows Conda environment with **CPU** backend and upgrade tensorflow:
 
 ``` batch
-conda create --name tv-script-project pip python=3.5 numpy jupyter
+conda create --name tv-script-project pip python=3.6 numpy jupyter tensorflow
 conda activate tv-script-project
-pip install --ignore-installed --upgrade tensorflow
 python -m ipykernel install --user --name tv-script-project --display-name "tv-script-project"
  ```
 
 Create a Windows Conda environment with **GPU** backend and upgrade tensorflow:
 
 ``` batch
-conda create --name tv-script-project pip python=3.5 numpy jupyter
+conda create --name tv-script-project pip python=3.6 numpy jupyter tensorflow-gpu
 conda activate tv-script-project
-pip install --ignore-installed --upgrade tensorflow-gpu
 python -m ipykernel install --user --name tv-script-project --display-name "tv-script-project"
 ```
 
@@ -76,7 +74,7 @@ Tested on the following environment:
 Create a macOS Conda environment with **CPU** backend and upgrade tensorflow:
 
 ``` batch
-conda create --name tv-script-project pip python=3.5 numpy jupyter
+conda create --name tv-script-project pip python=3.6 numpy jupyter
 conda activate tv-script-project
 pip install --ignore-installed --upgrade https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-1.8.0-py3-none-any.whl
 python -m ipykernel install --user --name tv-script-project --display-name "tv-script-project"
