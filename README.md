@@ -90,5 +90,6 @@ Project notebook provided by Udacity, demonstrates RNNs with TensorFlow | [TV Sc
 
 ## References
 
-The following resources were used in developing this project: 
+The following resources were used in developing this project:
+[Word2Vec Tutorial - The Skip-Gram Model](http://mccormickml.com/2016/04/19/word2vec-tutorial-the-skip-gram-model/)
 
